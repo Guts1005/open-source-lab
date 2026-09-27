@@ -1,8 +1,8 @@
 # Open Source Systems Engineering Lab 🔬
 
-A high-performance benchmark suite and algorithmic primitives laboratory designed for zero-allocation data structures, high-resolution telemetry, and lock-free concurrency testing.
+A high-performance benchmark suite and algorithmic primitives laboratory designed for zero-allocation data structures, high-resolution telemetry, lock-free concurrency, and distributed systems algorithms.
 
-## 📦 Benchmark Primitives
+## 📦 Benchmark Primitives (24 Components)
 
 | Component | Path | Description |
 | :--- | :--- | :--- |
@@ -17,7 +17,20 @@ A high-performance benchmark suite and algorithmic primitives laboratory designe
 | **Exponential Backoff** | `src/exponential_backoff.py` | Full-jitter randomized exponential retry backoff |
 | **CRC32 Validator** | `src/checksum_crc32.py` | Streaming cyclic redundancy integrity checker |
 | **Streaming Chunker** | `src/streaming_chunker.py` | Zero-copy packet boundary streaming chunker |
+| **Arena Allocator** | `src/arena_allocator.py` | Linear bump arena allocator with bulk reset |
+| **Bloom Filter** | `src/bloom_filter.py` | Bitwise Bloom filter with multi-hash probing |
+| **Memory Fence** | `src/memory_fence.py` | Atomic memory barrier execution harness |
+| **Hazard Pointer** | `src/hazard_pointer.py` | Lock-free reader hazard pointer tracker |
+| **Debounce Throttler** | `src/debounce_throttler.py` | Microsecond event trailing throttler |
+| **Consistent Hash Ring** | `src/consistent_hash.py` | Hash ring with deterministic virtual nodes |
+| **Priority Heap** | `src/priority_heap.py` | Binary min-heap priority task queue |
+| **Prefix Trie** | `src/trie_lookup.py` | High-speed prefix trie for route matching |
+| **Sliding Window Counter** | `src/sliding_window_counter.py` | Memory-bounded rate limiter counter |
+| **Byte Packer** | `src/byte_packer.py` | Binary frame struct serializer |
+| **Circuit Breaker** | `src/circuit_breaker.py` | Tri-state fault tolerance circuit breaker |
+| **MurmurHash3** | `src/murmur3_hasher.py` | 32-bit fast integer non-cryptographic hasher |
+| **Lock-Free Stack** | `src/lock_free_stack.py` | Treiber lock-free atomic stack |
 
-## 🧪 Discussions & Community
+## 🧪 Discussions & Architecture Q&A (16 Topics)
 
-Visit the [Discussions Tab](https://github.com/Guts1005/open-source-lab/discussions) to review architectural Q&As and benchmark design patterns.
+Visit the [Discussions Tab](https://github.com/Guts1005/open-source-lab/discussions) to review 16 curated architectural Q&As covering memory barriers, Nagle's algorithm, mmap, Bloom filters, hazard pointers, branch prediction, and arena allocators.
